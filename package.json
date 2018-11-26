@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-travis-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-core/register ./server/tests --exit --timeout 5000 --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitaz/nodejs-travis-integration.git"
+  },
+  "keywords": [
+    "travisci",
+    "nodejs",
+    "backend"
+  ],
+  "author": "pitaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitaz/nodejs-travis-integration/issues"
+  },
+  "homepage": "https://github.com/pitaz/nodejs-travis-integration#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
