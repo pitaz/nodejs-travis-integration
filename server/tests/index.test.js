@@ -4,4 +4,7 @@ describe("first test", function() {
   it("checks equality", function() {
     assert.equal(true, true);
   });
+  it("checks equality", function() {
+    assert.equal(true, true);
+  });
 });
