@@ -24,6 +24,7 @@
   "homepage": "https://github.com/pitaz/nodejs-travis-integration#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "logger": "0.0.1",
     "mocha": "^5.2.0"
   },
   "devDependencies": {
